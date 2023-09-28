@@ -1,0 +1,45 @@
+/* styles/AnimatedText.module.css */
+.Frontend{background-color: rgb(26, 26, 26);}
+.card {
+      height: 50vh;
+      width: 100%; 
+      margin-left: 6vh;
+      margin: 0 auto;
+}
+.frontend_card {
+
+      border: solid 2px rgba(57, 57, 57, 0.085);
+      width: 40%;
+      margin: 0 auto;
+      box-shadow: 7px 7px 7px 0  #3cffc84b;
+
+
+
+}
+.animated_text {
+    color: #3cffc8;
+    background-color:  rgb(26, 26, 26);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+    
+  }
+
+  .container {    
+    
+  color: #3cffc8;  
+  text-align: left;
+  font-size: 12px;
+  width: 90%;
+  margin: 0 auto;
+
+  }
+  
+
+  @media(max-width: 600px){
+      .frontend_card {
+        width: 100%;
+      }
+    }

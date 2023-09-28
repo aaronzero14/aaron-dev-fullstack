@@ -1,0 +1,64 @@
+.line {
+    background-color: rgb(28, 28, 28);
+    height: 14vh;
+    text-align: center ;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+  }
+  .main {
+color: aliceblue;
+background-color: rgb(33, 33, 33);
+}
+  .side {
+    background-color: rgb(33, 33, 33);
+
+color: aliceblue;}
+
+  .main,
+  .side {
+    padding: 2%;
+    border-radius: 2px
+  }
+  
+  @media(max-width: 400px){
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .link_1 {
+    background-color: rgb(16, 16, 16);
+    width: 100%;
+    height: 10vh;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease; /* Transición suave para los cambios */
+    position: relative;
+  }
+  
+  .link_1:hover {
+    box-shadow: 0 4px 8px rgba(34, 255, 0, 0.2); /* Agrega una sombra en hover */
+    transform: translateY(-5px); /* Sube el elemento 5px en hover */
+    animation: blink 0.7s infinite; /* Efecto de parpadeo en hover */
+    color: greenyellow;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+
+  .imgs_blogs{
+    width: 100%;
+  }

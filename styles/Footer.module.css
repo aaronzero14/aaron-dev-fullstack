@@ -1,0 +1,27 @@
+.Footer{
+    background-color: rgb(36, 36, 36);
+    font-size: 12px;
+}
+.grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .main {
+color: aliceblue;  
+}
+  .side {
+    color: aliceblue;  
+
+  }
+  .main,
+  .side {
+    padding: 2%;
+    border-radius: 10px
+  }
+  
+  @media(max-width: 400px){
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
