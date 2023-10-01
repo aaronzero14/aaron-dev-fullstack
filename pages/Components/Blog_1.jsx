@@ -16,13 +16,13 @@ export default function Blog_1() {
 <br /><br />
 <div className={styles.grid}>
   <article className={styles.main}>
-    <h1> <FontAwesomeIcon icon={faSyringe} color='gray' fontSize={30} /> Tatto Studio</h1>
+    <h1> <FontAwesomeIcon icon={faSyringe} color='gray' fontSize={30} /> Python Info Sys </h1>
 
-<img src="https://wallpapers.com/images/hd/white-haired-bad-girl-with-tattoo-ml15c7zmqs0ghjef.jpg" alt="imgs" className={styles.imgs_blogs} />
+<img src="https://programming.dev/pictrs/image/644d1bd4-dfc1-4a39-b667-6d7c8f353b5b.jpeg" alt="imgs" className={styles.imgs_blogs} />
 <p>
-App created with HTML, CSS & Javascript
+Sample Software info system
     </p>
-   <Link href="https://weather-14.netlify.app/  " >
+   <Link href="https://github.com/aaronzero14/Python/tree/main/System  " >
    <div className={styles.link_1}><br /> Look the project</div>
    </Link>
 
