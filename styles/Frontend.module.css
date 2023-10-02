@@ -1,45 +1,106 @@
-/* styles/AnimatedText.module.css */
-.Frontend{background-color: rgb(26, 26, 26);}
-.card {
-      height: 50vh;
-      width: 100%; 
-      margin-left: 6vh;
-      margin: 0 auto;
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 2fr 1fr;
+  color: white;
 }
-.frontend_card {
-
-      border: solid 2px rgba(57, 57, 57, 0.085);
-      width: 40%;
-      margin: 0 auto;
-      box-shadow: 7px 7px 7px 0  #3cffc84b;
-
-
-
+.main {
+  background: rgb(29, 28, 28);
 }
+.side {
+  background: rgb(29, 28, 28);
+}
+.main,
+.side {
+  padding: 2%;
+  border-radius: 4px
+}
+
+@media(max-width: 400px){
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
 .animated_text {
-    color: #3cffc8;
-    background-color:  rgb(26, 26, 26);
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    
-    
-  }
-
-  .container {    
-    
-  color: #3cffc8;  
+  color: #18ecff;
+  background-color:  rgb(21, 21, 21);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: left;
-  font-size: 12px;
-  width: 90%;
-  margin: 0 auto;
+  font-size: 3vh;
+  
+  
+}
+
+.container {
+  
+text-align: left;
+font-size: 12px;
+width: 90%;
+margin: 0 auto;
+
+}
+.card {
+  height:100%;
+  width: 100%;
+  border-radius: 10px;
+  
+}
+
+@media(max-width: 600px){
+    .backend_card {
+      width: 100%;
+    }
+    .return {
+      width: 20%;
+    }
+  }
+
+  .Frontend {
+    font-size: 12px;
+    width: 90%;
+    margin: 0 auto ;
+    margin-top: 10px;
+    color: #ffffff;
 
   }
-  
 
-  @media(max-width: 600px){
-      .frontend_card {
-        width: 100%;
-      }
-    }
+  .line {
+    background-color: rgb(16, 15, 15);
+    width: 90%;
+    margin: 0 auto ;
+    text-align: center;
+    height: 9vh;
+    color: #ffffff;
+
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    text-align: center;
+ }
+
+ .return {
+  border: solid 0.2px rgb(23, 255, 213);
+  width: 10%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(23, 255, 213, 0.7);
+  cursor: pointer;
+
+ }
+
+ @media(max-width: 600px){
+
+  .return {
+    width: 20%;
+  }
+}

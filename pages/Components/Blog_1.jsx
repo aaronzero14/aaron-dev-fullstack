@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link';
 import styles from '../../styles/Blog_1.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCloud, faCode, faCodeBranch, faKey, faStore, faSyringe } from '@fortawesome/free-solid-svg-icons';
+import { faCloud, faCode, faCodeBranch, faKey, faRodSnake, faStore, faSyringe } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -16,7 +16,7 @@ export default function Blog_1() {
 <br /><br />
 <div className={styles.grid}>
   <article className={styles.main}>
-    <h1> <FontAwesomeIcon icon={faSyringe} color='gray' fontSize={30} /> Python Info Sys </h1>
+    <h1> <FontAwesomeIcon icon={faRodSnake} color='greenyellow' fontSize={30} /> Python Info Sys </h1>
 
 <img src="https://programming.dev/pictrs/image/644d1bd4-dfc1-4a39-b667-6d7c8f353b5b.jpeg" alt="imgs" className={styles.imgs_blogs} />
 <p>
