@@ -73,7 +73,7 @@
 /* Media queries para hacerlo responsive */
 @media screen and (max-width: 600px) {
     .input, .input_comment, .button, .left{
-        margin-left: 3vh;
+        margin-left: 2.5vh;
     }
     .button {width: 90%;}
   }
