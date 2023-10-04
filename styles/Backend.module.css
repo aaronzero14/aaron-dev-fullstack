@@ -1,5 +1,7 @@
 /* styles/AnimatedText.module.css */
-.backend{background-color: rgb(26, 26, 26);}
+.backend {
+  background-color: rgb(26, 26, 26);
+}
 
 div.noticia {
   width: 90%;
@@ -7,35 +9,34 @@ div.noticia {
   background-color: rgb(35, 35, 35);
   color: #fff;
   padding: 15px;
-  height: 25vh;
+  min-height: 25vh;
+  box-sizing: border-box;
+  display: flex; /* Usa flexbox para organizar los elementos */
+  flex-direction: row-reverse; /* Inicialmente coloca la imagen a la derecha y el texto a la izquierda */
 }
 
-div.noticia img.izquierda {
-  float: left;
-  margin-right: 15px;
-  width: 16%;
-}
-
+div.noticia img.izquierda,
 div.noticia img.derecha {
-  float: right;
-  margin-left: 15px;
-  width: 16%;
-
+  width: 27%;
+  margin: 0 15px;
+  box-sizing: border-box;
 }
 
 div.reset {
   clear: both;
 }
 
-  @media(max-width: 600px){
-      .backend_card {
-        width: 100%;
-      }
-    }
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+  div.noticia {
+    flex-direction: column; /* Cambia a una disposición de columna en pantallas más pequeñas */
+    align-items: center; /* Centra los elementos en la columna */
+    font-size: 12px;
+  }
 
-    .aside {
-      font-size: 12.2px;
-    }
-
-
-  
+  div.noticia img.izquierda,
+  div.noticia img.derecha {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

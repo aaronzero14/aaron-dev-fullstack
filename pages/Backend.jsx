@@ -35,7 +35,7 @@ const Backend = () => {
 </div>
 
 <div className={styles.noticia}>
-<img className={styles.izquierda} src="https://blog.interfell.com/hubfs/JavaScript%20un%20lenguaje%20de%20programaci%C3%B3n.jpg"/>
+<img className={styles.izquierda} src="https://wallpapercave.com/wp/wp4895255.jpg"/>
 
   <aside className={styles.aside}>PHP serves as a versatile backend solution, offering developers a 
   robust platform for web applications. Its simplicity, extensive libraries, and frameworks facilitate 
