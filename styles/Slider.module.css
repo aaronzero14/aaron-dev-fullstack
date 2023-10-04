@@ -1,0 +1,50 @@
+.line {
+    background-color: #1e1e1e;
+    height: 14vh;
+    color:aqua;
+    text-align: center;
+    font-size: 24px;
+}
+.letters{
+    font-size: 14px;
+    margin-left: 10vh;
+    width: 80%;
+
+}
+.left {margin-left: 10vh;}
+/* Slider.module.css */
+.sliderContainer {
+    width: 92%;
+    margin: 0 auto;
+    /*overflow: hidden;*/
+    color: #ffffff;
+  }
+  
+  .sliderSlide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 8px;
+    transition: transform 0.5s ease; /* Agrega una transición para un suave desplazamiento */
+  }
+  
+  .slider-slide:hover {
+    transform: scale(1.1); /* Agrega un efecto de escala al hacer hover en los slides */
+  }
+
+  @media(max-width: 600px){
+    .sliderSlide {
+    height: 100%;
+    }
+    .sliderContainer{
+      width: 85%;
+    }
+    .letters {
+      margin-left: 7vh;
+    }
+  }
+  
