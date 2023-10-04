@@ -69,3 +69,11 @@
         transform: translateY(-5px);
     }
 }
+
+/* Media queries para hacerlo responsive */
+@media screen and (max-width: 600px) {
+    .input, .input_comment, .button{
+        margin-left: 3vh;
+    }
+    .button {width: 90%;}
+  }
