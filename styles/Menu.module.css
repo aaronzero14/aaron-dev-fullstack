@@ -1,0 +1,52 @@
+.line {
+  background-color: rgb(26, 26, 26);
+  height: 10vh;
+  text-align: center;
+  color: white;
+  font-size: large;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.accordion {
+  margin: 10px;
+  width: calc(33.33% - 20px);
+  box-sizing: border-box;
+}
+
+.accordionHeader {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #222222;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+.accordionHeader:hover {
+  background-color: #047982;
+}
+
+.accordionContent {
+  padding: 10px;
+  background-color: #191a1a;
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+  max-height: 0;
+  color: #047982; 
+   }
+
+/* Media queries para hacerlo responsive */
+@media screen and (max-width: 768px) {
+  .accordion {
+      width: calc(50% - 20px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .accordion {
+      width: calc(100% - 20px);
+  }
+}

@@ -11,7 +11,7 @@ export default function Frontend() {
  <div> <br /><br />
      <div className={styles.grid}>
     <article className={styles.main}>
-      <h1>About me such as Fronte End Developer</h1>
+      <h1>About me such as Front-End Developer</h1>
       <motion.p
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from '../../styles/Blog.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCodeBranch, faDiagramProject, faEye, faLink, faMagic, faPerson, faPersonArrowDownToLine  } from '@fortawesome/free-solid-svg-icons';
+import ContactForm from './ContactForm';
 
 export default function Blog() {
   const [darkMode, setDarkMode] = useState(false);
@@ -38,13 +39,10 @@ export default function Blog() {
 
 <div className={styles.grid}>
   <article className={styles.main}>
-    <h1><FontAwesomeIcon icon={faPersonArrowDownToLine} color='orange' /> About Me such as developer fullstack </h1>
+    <h1><FontAwesomeIcon icon={faPersonArrowDownToLine} color='orange' /> You like a Developer fullstack work for you!! Contact with me Dude!</h1>
   <p>Fullstack developer with a passion for creating seamless, end-to-end digital solutions.</p>
-  <img
-  className={styles.image_blog} // Reemplaza "tuClase" con el nombre de tu clase CSS
-  src="https://c4.wallpaperflare.com/wallpaper/603/260/908/programmers-programming-motivational-code-text-hd-wallpaper-preview.jpg" // Reemplaza "URL_DE_LA_IMAGEN" con la URL de tu imagen
-  alt="Descripción de la imagen"
-/>
+
+<ContactForm></ContactForm>
 
   </article>
   <section className={styles.side}>
@@ -58,6 +56,17 @@ export default function Blog() {
         title="Video de YouTube"
         className={styles.video_blog}
       ></iframe>    
+      <br /><br />
+      <p>
+Certainly! Here are four lines summarizing your education for your video description: <br />
+
+Education Highlights:
+
+Dive into my educational journey, where I honed my skills and gained valuable knowledge. 
+<br /><br />
+I graduated with a degree in [Your Degree] from [Your University], specializing in [Your Major].
+<br />
+ My academic background, coupled with real-world experiences, equips me to approach challenges with a unique perspective. Explore how my education has shaped my expertise, making me proficient in [Your Skills].</p>
 
   </section>
 </div> <br /><br />

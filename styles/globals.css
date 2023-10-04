@@ -59,3 +59,13 @@ a {
 }
 
 
+::placeholder {
+  color: rgb(39, 249, 207);
+  box-shadow: 5px 5px 5px 0 rgba(3, 255, 171, 0.285); 
+  height: 4vh;
+
+
+}
+
+
+

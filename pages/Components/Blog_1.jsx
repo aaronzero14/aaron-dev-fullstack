@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link';
 import styles from '../../styles/Blog_1.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCloud, faCode, faCodeBranch, faKey, faRodSnake, faStore, faSyringe } from '@fortawesome/free-solid-svg-icons';
+import { faCloud, faCode, faCodeBranch, faCogs, faKey, faRodSnake, faStore, faSyringe } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -12,7 +12,7 @@ export default function Blog_1() {
   return (
     <div>
 
-<div className={styles.line}> <br /> - Projects -  </div>
+<div className={styles.line}> <br />  <FontAwesomeIcon icon={faCogs} color='white' fontSize={30} />  My Projects & Colaboration Projects  </div>
 <br /><br />
 <div className={styles.grid}>
   <article className={styles.main}>
@@ -63,6 +63,9 @@ App Password created Javascript
     <div className={styles.link_1}><br /> Look the project</div>
    </Link>
   </section>
+
+
+
   <section className={styles.side}>
     <h1>E-Commerce</h1>
 <center>    <FontAwesomeIcon icon={faStore} color='orange' fontSize={200}  /> </center>

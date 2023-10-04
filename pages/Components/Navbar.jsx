@@ -14,7 +14,7 @@ export default function Navbar() {
       urls_0: "Front-End",urls_1: "Back-End ", urls_2: "Security"
     };
     //_______________________
-    const lists = ["Hi Hack your welcome",  "I`m Fullstack Developer", "Write me,  I work for your project!"];
+    const lists = ["Hi Hack your welcome",  "I`m Fullstack Developer", "Write me,  I will work for your project!"];
 
 
   
