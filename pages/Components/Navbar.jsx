@@ -29,7 +29,7 @@ export default function Navbar() {
         </div>
     </div> 
       
-      <div className={styles.Cover}> <br /><br />
+      <div className={styles.Cover}> <br /><br /><br /><br />
    
         <ul className={styles.list}>
         <FontAwesomeIcon icon={faLaptopCode} color=' rgb(208, 66, 255)' fontSize={80} />
